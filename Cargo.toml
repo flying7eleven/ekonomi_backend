@@ -8,3 +8,4 @@ edition = "2018"
 diesel = { version = "*", features = ["sqlite"] }
 serde = { version = "*", features = ["derive"] }
 serde_yaml = "*"
+clap = {version = "*", features = ["yaml"]}
